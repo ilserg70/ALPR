@@ -134,3 +134,5 @@ dmypy.json
 *.DS_Store?
 data
 licence_plates
+azureml_subscription.py
+
