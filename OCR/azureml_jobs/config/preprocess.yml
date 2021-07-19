@@ -1,0 +1,17 @@
+name: ALPR_OCR_Preprocess
+dependencies:
+- python=3.8.5
+- pip>=21.0,<22
+- pip:
+  - numpy>=1.10,<1.20
+  - joblib==1.0.1
+  - tqdm>=4.59,<4.60
+  - imutils==0.5.3
+  - pillow==8.1.0
+  - opencv-python-headless==4.5.1.48
+  - lmdb==1.0.0
+  - azureml-core==1.26.0
+  - azureml-defaults==1.26.0
+  - azureml-telemetry==1.26.0
+  - matplotlib==3.3.4
+  - pandas==1.2.0
